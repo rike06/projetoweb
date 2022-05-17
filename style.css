@@ -1,59 +1,20 @@
-nav{
-    width: 100%;
-    height: 60px;
-    background: rgba(0, 0, 0, 0);
-background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
-}
-ul{
-list-style: none;
-padding-top: 20px;
 
-} 
-li{
-    display: inline;
-    padding-left: 20px;
-} 
-li a{
-    color:aqua;
-    text-decoration: none;
-}
-li a{
-    color: aqua;
-    text-decoration: none;
-}
-li a{
-    color: aqua;
-    text-decoration: aqua;
-}
-p{
-padding: 10px;   
-text-align: justify;
-}
-
-/*Esses comandos são utilizados para definir o tamanho e a cor da div*/
-.left {
-    width: 30%;
-    height: 450px;
-   /* background-color:*/
-   /*borda na div*/
-   /*cor de fundo*/
-   /*dashed coloca a borda*/
-  
-   float: left;
-   margin-left: 10%;
-}
-.right {
-    width: 30%;
-    height: 450px;
-   /* background-color:rgb(253, 0, 0) ;*/
-    float: right;
-    margin-right: 10%;
-}
-/** list-style É para tirar os pontos da list*/
-/** inline significa em linha*/ 
-/** tag img src*/
-/** tag <P> é para textos*/
-/** tag <br> pular linha*/
-/** tag table=tabela*/
-/** tag border faz a barra da tabela*/
-/** padding-top distância da lista em relação ao topo da página*/
+    /*Esses comandos são utilizados para definir o tamanho e a cor da div*/
+ .left {
+     width: 40%;
+     height: 450px;
+    /* background-color:*/
+    /*borda na div*/
+    /*cor de fundo*/
+    /*dashed coloca a borda*/
+    border: 4px #000 dashed;
+    float: left;
+    margin-left: 10%;
+ }
+ .right {
+     width: 40%;
+     height: 450px;
+    /* background-color:rgb(253, 0, 0) ;*/
+     float: right;
+     margin-right: 10%;
+ }
